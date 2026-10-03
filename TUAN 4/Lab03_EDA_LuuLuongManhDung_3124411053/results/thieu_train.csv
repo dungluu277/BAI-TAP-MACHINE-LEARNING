@@ -1,0 +1,20 @@
+﻿,thieu,ty_le_%,Nhóm
+PoolQC,1453,99.5,NA = không có
+MiscFeature,1406,96.3,NA = không có
+Alley,1369,93.8,NA = không có
+Fence,1179,80.8,NA = không có
+FireplaceQu,690,47.3,NA = không có
+LotFrontage,259,17.7,Thiếu thật (cần điền)
+GarageType,81,5.5,NA = không có
+GarageYrBlt,81,5.5,Đi kèm không có garage
+GarageFinish,81,5.5,NA = không có
+GarageQual,81,5.5,NA = không có
+GarageCond,81,5.5,NA = không có
+BsmtExposure,38,2.6,NA = không có
+BsmtFinType2,38,2.6,NA = không có
+BsmtFinType1,37,2.5,NA = không có
+BsmtCond,37,2.5,NA = không có
+BsmtQual,37,2.5,NA = không có
+MasVnrArea,8,0.5,Thiếu thật (cần điền)
+MasVnrType,8,0.5,Thiếu thật (cần điền)
+Electrical,1,0.1,Thiếu thật (cần điền)

@@ -1,0 +1,12 @@
+﻿,train,test
+YearRemodAdd < YearBuilt,0,1
+YrSold < YearBuilt,0,1
+GarageYrBlt > YrSold,0,2
+GarageYrBlt > 2010 (năm không thể có),0,1
+GarageYrBlt < YearBuilt (garage cũ hơn nhà),9,9
+1stFlr+2ndFlr+LowQual != GrLivArea,0,0
+BsmtFin1+Fin2+Unf != TotalBsmtSF,0,1
+MasVnrType=None nhưng MasVnrArea>0,5,2
+MasVnrType khác None nhưng MasVnrArea=0,2,1
+BedroomAbvGr=0,6,2
+GrLivArea > 4000,4,1

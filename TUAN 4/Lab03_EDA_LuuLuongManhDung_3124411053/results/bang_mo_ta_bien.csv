@@ -1,0 +1,80 @@
+﻿Biến,Nhóm,Kiểu pandas,Số giá trị khác nhau,Thiếu (train),Thiếu (test),Ý nghĩa
+MSSubClass,nominal,int64,15,0,0,Identifies the type of dwelling involved in the sale.
+MSZoning,nominal,object,5,0,4,Identifies the general zoning classification of the sale.
+LotFrontage,continuous,float64,110,259,227,Linear feet of street connected to property
+LotArea,continuous,int64,1073,0,0,Lot size in square feet
+Street,nominal,object,2,0,0,Type of road access to property
+Alley,nominal,object,2,1369,1352,Type of alley access to property
+LotShape,ordinal,object,4,0,0,General shape of property
+LandContour,nominal,object,4,0,0,Flatness of the property
+Utilities,ordinal,object,2,0,2,Type of utilities available
+LotConfig,nominal,object,5,0,0,Lot configuration
+LandSlope,ordinal,object,3,0,0,Slope of property
+Neighborhood,nominal,object,25,0,0,Physical locations within Ames city limits
+Condition1,nominal,object,9,0,0,Proximity to various conditions
+Condition2,nominal,object,8,0,0,Proximity to various conditions (if more than one is present)
+BldgType,nominal,object,5,0,0,Type of dwelling
+HouseStyle,nominal,object,8,0,0,Style of dwelling
+OverallQual,ordinal,int64,10,0,0,Rates the overall material and finish of the house
+OverallCond,ordinal,int64,9,0,0,Rates the overall condition of the house
+YearBuilt,discrete,int64,112,0,0,Original construction date
+YearRemodAdd,discrete,int64,61,0,0,Remodel date (same as construction date if no remodeling or additions)
+RoofStyle,nominal,object,6,0,0,Type of roof
+RoofMatl,nominal,object,8,0,0,Roof material
+Exterior1st,nominal,object,15,0,1,Exterior covering on house
+Exterior2nd,nominal,object,16,0,1,Exterior covering on house (if more than one material)
+MasVnrType,nominal,object,4,8,16,Masonry veneer type
+MasVnrArea,continuous,float64,327,8,15,Masonry veneer area in square feet
+ExterQual,ordinal,object,4,0,0,Evaluates the quality of the material on the exterior
+ExterCond,ordinal,object,5,0,0,Evaluates the present condition of the material on the exterior
+Foundation,nominal,object,6,0,0,Type of foundation
+BsmtQual,ordinal,object,4,37,44,Evaluates the height of the basement
+BsmtCond,ordinal,object,4,37,45,Evaluates the general condition of the basement
+BsmtExposure,ordinal,object,4,38,44,Refers to walkout or garden level walls
+BsmtFinType1,ordinal,object,6,37,42,Rating of basement finished area
+BsmtFinSF1,continuous,int64,637,0,1,Type 1 finished square feet
+BsmtFinType2,ordinal,object,6,38,42,Rating of basement finished area (if multiple types)
+BsmtFinSF2,continuous,int64,144,0,1,Type 2 finished square feet
+BsmtUnfSF,continuous,int64,780,0,1,Unfinished square feet of basement area
+TotalBsmtSF,continuous,int64,721,0,1,Total square feet of basement area
+Heating,nominal,object,6,0,0,Type of heating
+HeatingQC,ordinal,object,5,0,0,Heating quality and condition
+CentralAir,nominal,object,2,0,0,Central air conditioning
+Electrical,ordinal,object,5,1,0,Electrical system
+1stFlrSF,continuous,int64,753,0,0,First Floor square feet
+2ndFlrSF,continuous,int64,417,0,0,Second floor square feet
+LowQualFinSF,continuous,int64,24,0,0,Low quality finished square feet (all floors)
+GrLivArea,continuous,int64,861,0,0,Above grade (ground) living area square feet
+BsmtFullBath,discrete,int64,4,0,2,Basement full bathrooms
+BsmtHalfBath,discrete,int64,3,0,2,Basement half bathrooms
+FullBath,discrete,int64,4,0,0,Full bathrooms above grade
+HalfBath,discrete,int64,3,0,0,Half baths above grade
+BedroomAbvGr,discrete,int64,8,0,0,
+KitchenAbvGr,discrete,int64,4,0,0,
+KitchenQual,ordinal,object,4,0,1,Kitchen quality
+TotRmsAbvGrd,discrete,int64,12,0,0,Total rooms above grade (does not include bathrooms)
+Functional,ordinal,object,7,0,2,Home functionality (Assume typical unless deductions are warranted)
+Fireplaces,discrete,int64,4,0,0,Number of fireplaces
+FireplaceQu,ordinal,object,5,690,730,Fireplace quality
+GarageType,nominal,object,6,81,76,Garage location
+GarageYrBlt,discrete,float64,97,81,78,Year garage was built
+GarageFinish,ordinal,object,3,81,78,Interior finish of the garage
+GarageCars,discrete,int64,5,0,1,Size of garage in car capacity
+GarageArea,continuous,int64,441,0,1,Size of garage in square feet
+GarageQual,ordinal,object,5,81,78,Garage quality
+GarageCond,ordinal,object,5,81,78,Garage condition
+PavedDrive,ordinal,object,3,0,0,Paved driveway
+WoodDeckSF,continuous,int64,274,0,0,Wood deck area in square feet
+OpenPorchSF,continuous,int64,202,0,0,Open porch area in square feet
+EnclosedPorch,continuous,int64,120,0,0,Enclosed porch area in square feet
+3SsnPorch,continuous,int64,20,0,0,Three season porch area in square feet
+ScreenPorch,continuous,int64,76,0,0,Screen porch area in square feet
+PoolArea,continuous,int64,8,0,0,Pool area in square feet
+PoolQC,ordinal,object,3,1453,1456,Pool quality
+Fence,ordinal,object,4,1179,1169,Fence quality
+MiscFeature,nominal,object,4,1406,1408,Miscellaneous feature not covered in other categories
+MiscVal,continuous,int64,21,0,0,$Value of miscellaneous feature
+MoSold,discrete,int64,12,0,0,Month Sold (MM)
+YrSold,discrete,int64,5,0,0,Year Sold (YYYY)
+SaleType,nominal,object,9,0,1,Type of sale
+SaleCondition,nominal,object,6,0,0,Condition of sale

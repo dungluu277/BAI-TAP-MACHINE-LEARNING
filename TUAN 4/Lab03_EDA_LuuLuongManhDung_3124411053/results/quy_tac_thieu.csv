@@ -1,0 +1,9 @@
+﻿,train,test
+Garage*: NA nhưng GarageArea>0 (thiếu thật),0,1
+Garage*: NA hoàn toàn nhưng GarageArea=0/NaN (hợp lệ),81,76
+Garage*: 5 cột thiếu cùng một dòng (tất cả hoặc không),1460,1457
+Bsmt*: NA nhưng TotalBsmtSF>0 (thiếu thật),2,7
+FireplaceQu NA nhưng Fireplaces>0,0,0
+FireplaceQu NA và Fireplaces=0 (hợp lệ),690,730
+PoolQC NA nhưng PoolArea>0 (thiếu thật),0,3
+"MasVnrType NA (thiếu thật, đi cùng MasVnrArea NA)",8,16
