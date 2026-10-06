@@ -1,0 +1,7 @@
+,Filter-MI-30,Filter-MI-50,Filter-F-50,Wrapper-RFE-50,Embedded-Lasso,Embedded-RFTop50
+Filter-MI-30,30,30,27,8,26,26
+Filter-MI-50,30,50,43,12,37,35
+Filter-F-50,27,43,50,13,36,33
+Wrapper-RFE-50,8,12,13,50,27,14
+Embedded-Lasso,26,37,36,27,85,40
+Embedded-RFTop50,26,35,33,14,40,50

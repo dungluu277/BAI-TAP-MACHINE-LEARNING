@@ -1,0 +1,8 @@
+,Số đặc trưng,Biến số,One-hot
+Baseline,248,35,213
+Filter-MI-30,30,19,11
+Filter-MI-50,50,23,27
+Filter-F-50,50,19,31
+Wrapper-RFE-50,50,4,46
+Embedded-Lasso,85,33,52
+Embedded-RFTop50,50,28,22

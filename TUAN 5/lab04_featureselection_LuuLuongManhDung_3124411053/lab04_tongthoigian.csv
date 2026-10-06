@@ -1,0 +1,8 @@
+scenario,RandomForest,SVR,XGBoost
+Baseline,3.674,0.181,3.132
+Filter-MI-30,4.304,2.685,4.132
+Filter-MI-50,4.388,2.523,4.184
+Filter-F-50,1.979,0.225,1.914
+Wrapper-RFE-50,1.333,0.52,1.767
+Embedded-Lasso,3.084,0.722,2.903
+Embedded-RFTop50,5.92,3.935,5.677
