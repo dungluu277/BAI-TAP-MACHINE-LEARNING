@@ -17,3 +17,11 @@
 
 ## TUAN 5 TỪ NGÀY 5-11/10/2026
 ### Ngày 6/10/2026: Tổng hợp file code của các thành viên, chạy thử và viết báo cáo để hoàn thành lab4
+
+## TUAN 6 TỪ NGÀY 12-18/10/2026
+### Ngày 18/10/2026: hoàn thành phần công việc của lab 5 máy học
+
+## TUAN 7 TỪ NGÀY 19-25/10/2026
+### Ngày 19/10/2026: tổng hợp lại các file từ các thành viên sau khi phân chia lab5 và tổng hợp báo cáo phân tích 5 và nộp bài lên classroom
+
+

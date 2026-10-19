@@ -1,0 +1,42 @@
+=== CAY QUYET DINH ===
+Do chinh xac tap test: 0.7821
+Cross-validation 5-fold: 0.8081
+              precision    recall  f1-score   support
+
+        Chet       0.76      0.94      0.84       110
+        Song       0.84      0.54      0.65        69
+
+    accuracy                           0.78       179
+   macro avg       0.80      0.74      0.75       179
+weighted avg       0.79      0.78      0.77       179
+
+Ma tran nham lan:
+ [[103   7]
+ [ 32  37]]
+
+=== RUNG CAY ===
+Do chinh xac tap test: 0.8156
+Cross-validation 5-fold: 0.8216
+              precision    recall  f1-score   support
+
+        Chet       0.80      0.94      0.86       110
+        Song       0.86      0.62      0.72        69
+
+    accuracy                           0.82       179
+   macro avg       0.83      0.78      0.79       179
+weighted avg       0.82      0.82      0.81       179
+
+Ma tran nham lan:
+ [[103   7]
+ [ 26  43]]
+
+Do quan trong cua cac thuoc tinh (rung cay):
+ Sex           0.3936
+Fare          0.1885
+Age           0.1321
+Pclass        0.1177
+FamilySize    0.0720
+Embarked      0.0334
+SibSp         0.0331
+Parch         0.0296
+dtype: float64
